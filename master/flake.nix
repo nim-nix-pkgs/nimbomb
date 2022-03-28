@@ -11,7 +11,6 @@
   inputs.src-nimbomb-master.ref   = "refs/heads/master";
   inputs.src-nimbomb-master.owner = "Tyler-Yocolano";
   inputs.src-nimbomb-master.repo  = "nimbomb";
-  inputs.src-nimbomb-master.dir   = "";
   inputs.src-nimbomb-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:

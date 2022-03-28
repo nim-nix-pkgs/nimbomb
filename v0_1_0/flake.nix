@@ -11,7 +11,6 @@
   inputs.src-nimbomb-v0_1_0.ref   = "refs/tags/v0.1.0";
   inputs.src-nimbomb-v0_1_0.owner = "Tyler-Yocolano";
   inputs.src-nimbomb-v0_1_0.repo  = "nimbomb";
-  inputs.src-nimbomb-v0_1_0.dir   = "";
   inputs.src-nimbomb-v0_1_0.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
